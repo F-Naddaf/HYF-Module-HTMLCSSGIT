@@ -1,0 +1,23 @@
+
+Q1. How do I create a hidden file or folder? How do I display it in the CLI?
+
+A1.  $ touch test.txt   ( creating new empty file ).
+     $ mv test.txt .test.txt   ( making the file is hidden in Command line interface only ).
+     $ ls -a    ( to print <view> all the files & directory including the hidden ).
+
+
+Q2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+A2. $ mkdir -p c/Users/myusername/these/folders/are/just/for/fun
+
+
+
+Q3. How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+
+A3. $ touch test.txt   ( creating new empty file ).
+    $ echo first message > test.txt  ( writing first message or erasing all the messages in the file and write this message only ).
+    $ echo second message >> test.txt  ( writing second message in the second line without erasing any old messages ).
+    $ echo third message >> test.txt   ( writing third message ....etc ).
+    $ cat test.txt    ( to print <view> the content of the file <test> ).

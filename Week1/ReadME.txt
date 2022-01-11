@@ -7,4 +7,4 @@ Digital Resume.
 Following the required commands to build the digital resume.
 using some of the semantic HTML like: main, header, time.
 using as many <div>'s and <class>'s i can. 
-using flex-box & grid and positions.
+using flex-box, grid and positions.

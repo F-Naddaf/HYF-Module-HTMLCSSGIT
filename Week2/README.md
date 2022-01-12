@@ -1,3 +1,3 @@
 # HEADER
 
-this the paragraphs
+this is a paragraphs

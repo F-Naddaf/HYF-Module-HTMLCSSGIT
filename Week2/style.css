@@ -223,7 +223,7 @@ header {
   .nav-list {
     width: 100vw;
   }
-  .menu-name a {
+  a.menu-name {
     display: none;
   }
   .menu-btn {
